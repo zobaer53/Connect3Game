@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
-            counter.animate().translationYBy(1500).rotation(3600).setDuration(300);
+            counter.animate().translationYBy(1500).rotation(3600).setDuration(100);
 
             for (int[] winningPosition : winningPositions) {
 
